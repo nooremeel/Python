@@ -29,7 +29,11 @@ def scrape(url):
     for i in range(len(productname)):
         print(productname[i], productprice[i])
 print('this is page 1 :')
+
 scrape(page1)
+
 print('this is page 2 :')
+
 scrape(page2)
+
 print('finished')
