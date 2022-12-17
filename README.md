@@ -6,10 +6,13 @@
 
 
 import requests
+
 import bs4
 
 page1='https://dream2000.com/catalogsearch/result/?q=iphone'
+
 page2='https://dream2000.com/catalogsearch/result/index/?p=2&q=iphone'
+
 def scrape(url):
     req= requests.get(url)
     code=req.content
